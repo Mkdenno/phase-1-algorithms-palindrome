@@ -1,8 +1,5 @@
 function isPalindrome(word) {
   // Write your algorithm here
-  //function isPalindrome should return true if it reads same forward and backward
-  //it should return false if it does not read same forward and backward
-  //should only be lowercase
   let reverseWord=word.split("").reverse().join("")
   if(word==reverseWord){
     return true;
@@ -17,11 +14,17 @@ console.log(isPalindrome("mom"))
 /* 
   Add your pseudocode here
   declare a fuction Palindrome
+  if the argument is palindrom it will return true
 
 */
 
 /*
   Add written explanation of your solution here
+  i will declare a valirible reverseWord
+  use split("") to split the word a return them in a array
+  the reverse the word which are split
+  use join("") to join them together
+  if they match with the original it will return true or false
 */
 
 // You can run `node index.js` to view these console logs
